@@ -1,0 +1,33 @@
+/**
+
+@mainpage  (N-Puzzle )
+
+@author Valentinos Pariza
+
+This program is about solving an N-puzzle game.As we all know for some problems
+in the world there are many solutions,but at the same time,for some other 
+problems the solutio n doesn't exist and it can be prove with discrete- 
+theoritical maths.
+
+So in this program we are going to see the solution of the N-puzzle with three
+different ways.Three algorythms.The breadth first search,the best first search
+and the A* search.In the program the implementation of the three algorythms 
+is used in order to give to the user the opportunity to run and solve a problem
+with whatever algorythm the user wants.At every algorithm the rules which are applied
+in order solving the game are the same(the possible steps of blank tile,the condition
+of solving the puzzle,the last state of the puzzle-which indicates the solution
+...).The only differece is the way the data-structures are used in order to solve
+ the game.At the breadth first search algorythm ,the queue is used as a ususal
+ queue with enqueue and dequeue methods, nut at the others two the queue is used 
+as a sorted queue -> double linked queue (in ascending) and the enqueue is  
+replaced by the priorityEnqueue(not although the dequeue method).More details 
+about the functionallity of the program is explained in the header files.
+
+Synopsising this program have the opportunity to show us the importance of the
+algorythms for not only solving some problems,but also solving them fast and 
+efficient(based on memory allocation efficiency and complexity).
+
+I wish more and more exciting and interesting exercises to be assigned to the
+students in order to understand the basic and more advanced fundamentals of 
+programming and algorythmic way of thinking.
+*/
